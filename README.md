@@ -12,6 +12,8 @@ Neste projeto, meu objetivo é automatizar a extração de dados anúncios de al
 
 Este post documenta todo o processo realizado, juntamente com o código utilizado, oferecendo explicações detalhadas. Espero que este projeto não apenas solucione meu problema, mas também sirva como fonte de aprendizado e inspiração para outros entusiastas de ciência de dados.
 
+Você também pode conferir o desenvolvimento do projeto no Medium. [Clique aqui](https://medium.com/@sourenansantos/web-scraping-de-alugueis-de-apartamentos-com-python-a93559b66a85) para acessar.
+
 ### Bibliotecas Utilizadas
 
 * **Selenium:** Utilizado para automatizar a navegação web, interagir com elementos da página e carregar dinamicamente o conteúdo.
