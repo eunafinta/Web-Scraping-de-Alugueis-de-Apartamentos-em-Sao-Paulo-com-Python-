@@ -4,7 +4,7 @@
 
 Bem-vindos ao meu primeiro projeto de Web Scraping com Python!
 
-A motivação para este projeto surgiu enquanto finalizava o curso de [Python for Data Science, AI & Development](https://www.coursera.org/learn/python-for-applied-data-science-ai) da IBM, disponível na [Coursera](https://www.coursera.org). Foi nesse curso que fui apresentado ao Beautiful Soup e fiquei fascinado com sua capacidade de extrair dados da web de maneira aparentemente simples. Decidi, então, aplicar esse conhecimento desenvolvendo um projeto para resolver um problema particular.
+A motivação para este projeto surgiu enquanto finalizava o curso de **Python for Data Science, AI & Development** da IBM, disponível na **Coursera**. Foi nesse curso que fui apresentado ao Beautiful Soup e fiquei fascinado com sua capacidade de extrair dados da web de maneira aparentemente simples. Decidi, então, aplicar esse conhecimento desenvolvendo um projeto para resolver um problema particular.
 
 Recentemente, tenho analisado anúncios de apartamentos devido ao meu desejo de mudar de residência. No entanto, tenho tido algumas insatisfações em relação às buscas por imóveis nos sites. Vasculhar várias páginas e anúncios é um processo cansativo, e desafiador para encontrar aluguéis vantajosos. Por exemplo, é bastante complexo localizar um apartamento com aluguel por metro quadrado mais acessível que a média.
 
@@ -924,19 +924,6 @@ apartment_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1149,19 +1136,6 @@ apartment_df[apartment_df.duplicated()]
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1398,30 +1372,6 @@ apartment_df['Bedrooms'] = apartment_df['Bedrooms'].astype(pd.Int64Dtype())
 apartment_df['Bathrooms'] = apartment_df['Bathrooms'].astype(pd.Int64Dtype())
 ```
 
-    C:\Users\Renan\AppData\Local\Temp\ipykernel_22644\2764187847.py:2: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      apartment_df['Total Area'] = apartment_df['Total Area'].astype(pd.Int64Dtype())
-    C:\Users\Renan\AppData\Local\Temp\ipykernel_22644\2764187847.py:3: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      apartment_df['Useful Area'] = apartment_df['Useful Area'].astype(pd.Int64Dtype())
-    C:\Users\Renan\AppData\Local\Temp\ipykernel_22644\2764187847.py:4: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      apartment_df['Bedrooms'] = apartment_df['Bedrooms'].astype(pd.Int64Dtype())
-    C:\Users\Renan\AppData\Local\Temp\ipykernel_22644\2764187847.py:5: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      apartment_df['Bathrooms'] = apartment_df['Bathrooms'].astype(pd.Int64Dtype())
     
 
 Outro aspecto que deve ser tratado são os valores ausentes. Optei por excluir as linhas com valores nulos na coluna `'Total Area'`, pois essa coluna é essencial para a análise e acredito que as linhas com valores nulos nela não são relevantes.
@@ -1465,19 +1415,6 @@ apartment_df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1619,19 +1556,6 @@ apartment_df.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1772,13 +1696,3 @@ No final, estou muito contente com os resultados alcançados. Foi empolgante des
 Embora este projeto específico esteja concluído, como mencionei anteriormente, pretendo utilizar os dados obtidos em um próximo projeto de análise de dados, buscando extrair insights valiosos dos aluguéis de imóveis em São Paulo.
 
 Por fim, agradeço por ter lido até aqui. Espero que meu projeto possa ter despertado ainda mais o seu interesse pela ciência de dados ou até mesmo ter sido útil para você.
-
-## Referências
-
-* [Python 3.11 Documentation](https://docs.python.org/3.11/)
-* [Selenium Documentation](https://www.selenium.dev/documentation/)
-* [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-* [Regular Expression Documentation](https://docs.python.org/3.11/library/re.html)
-* [Time Documentation](https://docs.python.org/3.11/library/time.html)
-* [Pandas Documentation](https://pandas.pydata.org/docs/)
-* [NumPy Documentation](https://numpy.org/doc/stable/)
