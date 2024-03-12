@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
-# Script melhorado para capiturar alugeis de qualquer cidade desde que seja o incluido a url do site imovelweb
+# Script melhorado para capiturar alugeis de qualquer cidade desde que seja incluido a url do site imovelweb
 # Script serve para vendas também, desde que seja alterado a url para cidade pretendida.
-# O Script também se torna permanete graças a alteração das tags, caso de erro: basta buscar a nova tag no site.
+# O Script também se torna permanete graças a alteração das tags, caso houver erros: basta buscar a nova tag no site.
 
 
 # In[1]:
